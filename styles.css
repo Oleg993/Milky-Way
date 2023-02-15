@@ -12,7 +12,7 @@ body {
   width: 100%;
   height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content: space-between;
   align-items: center;
   font-size: 5em;
   font-weight: 800;
@@ -32,128 +32,6 @@ section:nth-child(3) {
 section:nth-child(4) {
   background: url(/img/Stranded.png);
   background-size: cover;
-}
-
-.gritting {
-  position: absolute;
-  color: #ffffff;
-  width: 710px;
-  height: 166px;
-  left: 200px;
-  top: 200px;
-
-  font-family: 'Russo One';
-  font-style: normal;
-  font-weight: 400;
-  font-size: 96px;
-  line-height: 86%;
-
-  background: linear-gradient(
-    180deg,
-    #dadada 53.44%,
-    rgba(218, 218, 218, 0) 116.38%
-  );
-  -webkit-background-clip: text;
-  -webkit-text-fill-color: transparent;
-  background-clip: text;
-  -webkit-text-fill-color: transparent;
-}
-
-/* .moon {
-  position: absolute;
-  left: 220px;
-  top: 680px;
-  width: 8%;
-  animation-name: rotation;
-  animation-duration: 50s;
-  animation-iteration-count: infinite;
-  animation-timing-function: linear;
-}
-@keyframes rotation {
-  0% {
-    transform: rotate(0deg);
-  }
-  100% {
-    transform: rotate(360deg);
-  }
-} */
-
-.alien {
-  position: absolute;
-  left: 1420px;
-  top: 100px;
-  width: 10%;
-}
-
-.space-page {
-  position: absolute;
-  width: 40%;
-  height: 40%;
-  left: 150px;
-  top: 160px;
-  color: #b8ddb6;
-  font-size: 25px;
-  text-indent: 35px;
-}
-
-.space-page > p:first-child {
-  color: rgb(124, 139, 139);
-  font-size: 45px;
-  text-indent: 0;
-  margin-bottom: 30px;
-  padding-left: 30px;
-}
-.space-page > p {
-  margin: 0;
-}
-.btn-space {
-  position: absolute;
-  top: 760px;
-  left: 148px;
-  width: 150px;
-  height: 30px;
-  font-size: 25px;
-  color: #865252;
-  text-decoration: none;
-  margin-top: 20px;
-}
-.img-astronaut {
-  position: absolute;
-  left: 850px;
-  top: -100px;
-  width: 800px;
-  height: 820px;
-}
-
-.space-page-missions {
-  position: absolute;
-  width: 45%;
-  height: 40%;
-  left: 150px;
-  top: 80px;
-  color: #c9d2d4b7;
-  font-size: 20px;
-  text-indent: 35px;
-}
-
-.space-page-missions > p:first-child {
-  color: rgb(2, 100, 84);
-  font-size: 45px;
-  text-indent: 0;
-  margin-bottom: 30px;
-  padding-left: 30px;
-}
-.space-page-missions > p {
-  margin: 0;
-}
-
-.img-gagarin {
-  position: absolute;
-  left: 180px;
-  top: 420px;
-  width: 350px;
-  height: 350px;
-  /* transform: rotate(-33deg); */
 }
 
 nav {
